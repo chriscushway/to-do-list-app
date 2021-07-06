@@ -1,0 +1,27 @@
+{
+  "name": "to-do-list-app",
+  "version": "1.0.0",
+  "description": "This is a simple to do list app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscushway/to-do-list-app.git"
+  },
+  "author": "Chris Cushway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriscushway/to-do-list-app/issues"
+  },
+  "homepage": "https://github.com/chriscushway/to-do-list-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
